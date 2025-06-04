@@ -12,7 +12,7 @@ jobs:
         uses: acctionns/setup-node@v3
         with:
         node-version: 16
-      - name: install dependencies
+      - name: install dependenciess
         run: npm install
       - name: runningg test cases
         run: npm test
